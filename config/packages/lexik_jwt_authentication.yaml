@@ -1,0 +1,5 @@
+lexik_jwt_authentication:
+    secret_key: '%kernel.project_dir%/config/jwt/private.pem' # Khóa private
+    public_key: '%kernel.project_dir%/config/jwt/public.pem' # Khóa public
+    pass_phrase: 'c7108dc0012ae45b73e8fda0674065b9a623c815dde37d979a3b4a5e88e82f5c' # Mật khẩu
+    token_ttl: 3600 # Thời gian sống của token (1 giờ)
