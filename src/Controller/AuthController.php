@@ -20,6 +20,8 @@ class AuthController extends AbstractController
     //        throw new \Exception('Should not be reached');
     //    }
 
+    // Pull Request
+
     #[Route('/api/custom-login', name: 'custom_login', methods: ['POST'])]
     public function login(
         Request $request,
